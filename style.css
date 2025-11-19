@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+}
+.logo{
+    font-size: 32px;
+    color: #c43af3;
+    font-family: cursive;
+    font-weight: 700;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 17px;
+    transition: 2.2s;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: #c43af3;
+}
+
+/*home section*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 60px;
+    background: linear-gradient(120deg,#000,#140013,#6300a0);
+}
+.hero-text h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-text span{
+    color: #c43af3;
+    font-family: cursive;
+    font-size: 72px;
+}
+.social{
+    display: flex;
+    margin: 25px 0;
+    gap: 20px;
+}
+.social i{
+    font-size: 30px;
+    color: #c43af3;
+    margin-right: 15px;
+}
+.social i:hover{
+    color: white;
+  
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #c43af3;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.btn:hover{
+    background: white;
+    color: #c43af3;
+    transition: 1.2s;
+
+}
+/*footer*/
+.footer{
+    background: #000;
+    color: #fff;
+
+}
+.footer p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*about section*/
+.about{
+    color: #fff;
+    padding: 80px 60px;
+  
+}
+.about h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #c43af3;
+}
+.about p{
+    font-size: 18px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+/*project section*/
+.project{
+    padding: 80px 60px;
+}
+.project h2{
+    font-size: 38px;
+    color: #c43af3;
+    margin-bottom: 20px;
+}
+.project-box{
+    padding: 25px;
+    background: #1a001e;
+    border-left: 5px solid #c43af3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.project-box h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e28aff;
+}
+/*contact*/
+.contact{
+    padding: 80px 60px;
+    background: #0f0013;
+}
+.contact h2{
+    font-size: 38px;
+    color: #c43af3;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 18px;
+    margin-bottom: 18px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+}
+.form input,
+.form textarea{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+
